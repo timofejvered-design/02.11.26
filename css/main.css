@@ -1,0 +1,37 @@
+.img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.card {
+  background-color: #edf1ef;
+  border-radius: 25px;
+  width: 500px;
+  height: 630px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.2392156863);
+}
+
+.comments {
+  width: 500px;
+}
+
+.card-text-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text-button-item {
+  background-color: #000000;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  margin-top: 20px;
+}
+
+.card-text-button-item:hover {
+  background-color: white;
+  color: #000000;
+  border: solid 1px #000000;
+}
